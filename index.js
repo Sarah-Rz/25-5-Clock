@@ -1,7 +1,7 @@
 function App() {
-    const [displayTime, setDisplayTime] = React.useState(5);
+    const [displayTime, setDisplayTime] = React.useState(60);
     const [breakTime, setBreakTime] = React.useState(5);
-    const [sessionTime, setSessionTime] = React.useState(3);
+    const [sessionTime, setSessionTime] = React.useState(60);
     const [timerOn, setTimerOn] = React.useState(false); 
     const [onBreak, setOnBreak] = React.useState(false);
     const [breakAudio, setBreakAudio] = React.useState(
